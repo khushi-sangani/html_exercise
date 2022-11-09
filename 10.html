@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+</head>
+<body background="black">
+    <form method="post">
+        <table border="1" width="50%" align="center" bgcolor="#9ef01a" height="500%" cellpadding="20" >
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <p><b>Step 1: Your detalis</b></p>
+                                <table border="1" width="100%" bgcolor="#ccff33" bordercolor="white">
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>
+                                            <input type="text" placeholder="First and last name">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eamil</td>
+                                        <td>
+                                            <input type="emali" placeholder="example@domain.com">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone</td>
+                                        <td>
+                                            <input type="tel" placeholder="Eg.+44750000000" maxlength="10" pattern="[0-9]{10}">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><b>Step 2: Delivery address</b></p>
+                                <table border="1" width="100%" bgcolor="#ccff33" bordercolor="white">
+                                    <tr>
+                                        <td>Address</td>
+                                        <td>
+                                            <textarea rows="5" cols="20"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Post code</td>
+                                        <td>
+                                            <input type="text" >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Country</td>
+                                        <td>
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><b>Step 3: Card detalis</b></p>
+                                <table border="1" width="100%" bgcolor="#ccff33" bordercolor="white">
+                                    <tr>
+                                        <td colspan="2">
+                                            Card type<br>
+                                            <br>
+                                            <input type="radio" name="card">VISA
+                                            <input type="radio" name="card">AmEx
+                                            <input type="radio" name="card">Mastercard
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Card number</td>
+                                        <td>
+                                            <input type="tel">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Security code</td>
+                                        <td>
+                                            <input type="tel">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name on card</td>
+                                        <td>
+                                            <input type="text" placeholder="Exact name as on the card"
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <center>
+                                    <input type="button"value="BUY IT!">
+                                </center>
+                                <br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
